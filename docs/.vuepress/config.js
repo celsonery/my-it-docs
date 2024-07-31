@@ -9,9 +9,10 @@ export default defineUserConfig({
 
   title: 'My IT Docs',
   description: 'My IT Documentations',
+  base: "/",
 
   theme: defaultTheme({
-    docsRepo: 'https://github.com/celsonery/pit/docs',
+    docsRepo: 'https://github.com/celsonery/my-it-docs/',
     docsBranch: 'main',
     docsDir: 'docs',
     editLinkPattern: ':repo/-/edit/:branch/:path',
